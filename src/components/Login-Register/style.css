@@ -27,13 +27,14 @@ body {
 }
 
 .nav {
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     margin-top: 5%;
 }
 
 .nav_item {
+    font-size: large;
     width: 100%;
     /* margin-right: 5%; */
     display: flex;
@@ -64,15 +65,18 @@ body {
     display: flex;
     justify-content: center;
     color: white;
+   
 }
 
 .link {
-    width: 5%;
+    width: 20%;
     text-align: center;
+
+    margin-right: 100px;
 }
 
 .right {
-    margin-right: 3%;
+    margin-right: 50%;
 }
 
 .link a:hover {
@@ -139,7 +143,7 @@ body {
     margin: auto;
 }
 
-.flight_form {
+.flight_htmlForm {
     display: flex;
 }
 
@@ -148,7 +152,7 @@ body {
     margin-top: 5%;
 }
 
-.flight_form input {
+.flight_htmlForm input {
     width: 85%;
     color: white;
     background: transparent;
@@ -156,11 +160,11 @@ body {
     padding: 10px 5px 10px 12px;
 }
 
-.flight_form input::placeholder {
+.flight_htmlForm input::placeholder {
     color: white;
 }
 
-.flight_form select {
+.flight_htmlForm select {
     width: 95%;
     color: white;
     background: transparent;
@@ -168,7 +172,7 @@ body {
     padding: 10px 80px 10px 12px;
 }
 
-.flight_form a {
+.flight_htmlForm a {
     color: black;
     text-decoration: none;
 }
@@ -265,6 +269,8 @@ body {
 .link {
     width: 20%;
     text-align: center;
+    font-size: large
+    ;
 }
 
 .button {
@@ -296,10 +302,11 @@ body {
 
 .login {
     width: 100%;
-    height: 710px;
+    height: 800px;
     background: url(../image/ipl-2022-rhs-image.png) no-repeat;
     background-position: 100% 0;
     background-size: 60%;
+    overflow: hidden;
 }
 
 .login-line {
@@ -321,13 +328,13 @@ body {
 
 .login-box {
     width: 40%;
-    height: 500px;
+    height: 850px;
     /* border: solid 1px; */
 }
 
 .login-box-mid {
     width: 98%;
-    height: 480px;
+    height: 850px;
     margin: 5px;
     padding-top: 50px;
     border-radius: 3px;
@@ -370,8 +377,8 @@ body {
 }
 
 .not-member {
-    width: 40%;
-    margin-top: 3%;
+    width: 100%;
+    margin-top: 6px;
     text-align: center;
 }
 
@@ -427,6 +434,10 @@ body {
 .cover-logo {
     width: 30%;
     margin: auto;
+}
+
+.label-right{
+    margin-left: 5%;
 }
 
 .nav-menu-item a:hover {
